@@ -80,7 +80,7 @@ def loadmat(matfile):
     else:
         return {name: np.transpose(f.get(name)) for name in f.keys()}
 
-#@title Data download
+##@title Data download
 !wget -qO data.zip -c https://osf.io/7vpyh/download
 
 # #Commented out IPython magic to ensure Python compatibility.
