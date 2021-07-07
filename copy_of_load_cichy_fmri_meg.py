@@ -83,7 +83,7 @@ def loadmat(matfile):
 #@title Data download
 !wget -qO data.zip -c https://osf.io/7vpyh/download
 
-# Commented out IPython magic to ensure Python compatibility.
+# #Commented out IPython magic to ensure Python compatibility.
 # %%capture
 # !unzip -o data.zip #unzip the files
 
